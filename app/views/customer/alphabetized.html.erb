@@ -1,4 +1,6 @@
 <h1>Organized Customers</h1>
+<%= link_to "Index", "/customers/" %>
+<%= link_to "No Email", "/customers/missing_email" %>
 <div class='flexit'>
   <%= render partial: 'customer', collection: @customers %>
 </div>
